@@ -7,7 +7,7 @@ API_KEY = "1231231231"
 
 def main():
     global API_KEY
-    pwd = '/'.join(__file__.split("/")[:-1])
+    pwd = '/'.join(__file__.split("/")[:-2])
     if pwd[-1] == ".":
         pwd = pwd[:-1]
     os.system("export API_KEY")
